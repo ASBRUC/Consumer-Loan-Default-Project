@@ -7,3 +7,5 @@ target varaibles: bad_credit = 1 -> bad credit and bad_credit = 0 -> good credit
 Excluded sensitive fields of personal status & sex, and foreign worker
 Overall Goal: Predict interpretable triage to auto-approve, manual review, or a auto-decline
 
+3/31/2026: Within the 0–12 month duration bucket, default risk differs strongly across checking-status groups—A11: 35.87% (n=92), A12: 29.67% (n=91), A13: 16.67% (n=30), A14: 7.53% (n=146)—suggesting checking status provides predictive signal beyond loan term length.
+The relationship between duration and bad-credit risk depends on checking-status group. Longer durations correspond to disproportionately higher bad rates for A11/A12 compared to A14, indicating that loan term length and checking-account status interact rather than contributing purely independent effects.
