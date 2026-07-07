@@ -26,3 +26,10 @@ Sensitive attributes were excluded from modeling. Results are based on a small h
 - Probability calibration
 - Fairness evaluation
 - Cost-based threshold selection
+
+## How to Run
+Clone the repository, install the required packages, and run the notebook.
+
+```bash
+git clone https://github.com/USERNAME/credit-risk-triage.git
+cd credit-risk-triage
